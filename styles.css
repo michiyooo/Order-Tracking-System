@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+
+h2 {
+   color: #333;
+   text-align: center;
+   margin-top: 20px;
+}
+
+/* Container for forms and tables */
+.container {
+   max-width: 800px;
+   margin: 20px auto;
+   padding: 20px;
+   background: #fff;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form label {
+   display: block;
+   margin: 10px 0 5px;
+}
+
+form input, form select, form button {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+button {
+   background-color: #5cb85c;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #4cae4c;
+}
+
+/* Table Styles */
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+th {
+   background-color: #5cb85c;
+   color: white;
+   text-align: left;
+}
+
+td {
+   text-align: center;
+}
+
+tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+/* Notification styles */
+.notification {
+   color: #ff9800;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 10px;
+}

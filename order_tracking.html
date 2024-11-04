@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Order Tracking</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <!-- Navigation Menu -->
+   <nav>
+      <a href="order_form.html">Place Order</a>
+      <a href="order_management.html">Manage Orders</a>
+      <a href="order_tracking.html">Track Orders</a>
+      <a href="order_history.html">Order History</a>
+      <a href="login.html">Logout</a>
+   </nav>
+
+   <div class="container">
+      <h2>Order Tracking</h2>
+      <div id="orderNotifications" class="notification"></div>
+      <table id="trackingTable">
+         <thead>
+            <tr>
+               <th>Order ID</th>
+               <th>Delicacy</th>
+               <th>Status</th>
+               <th>Notification</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Tracking data will populate here -->
+         </tbody>
+      </table>
+   </div>
+</body>
+</html>

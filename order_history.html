@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Order History</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <!-- Navigation Menu -->
+   <nav>
+      <a href="order_form.html">Place Order</a>
+      <a href="order_management.html">Manage Orders</a>
+      <a href="order_tracking.html">Track Orders</a>
+      <a href="order_history.html">Order History</a>
+      <a href="login.html">Logout</a>
+   </nav>
+
+   <div class="container">
+      <h2>Order History & Reports</h2>
+      <button onclick="generateReport('daily')">Daily Report</button>
+      <button onclick="generateReport('weekly')">Weekly Report</button>
+      <button onclick="generateReport('monthly')">Monthly Report</button>
+      <table id="historyTable">
+         <thead>
+            <tr>
+               <th>Order ID</th>
+               <th>Delicacy</th>
+               <th>Quantity</th>
+               <th>Price</th>
+               <th>Pickup Date</th>
+               <th>Status</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Order history data here -->
+         </tbody>
+      </table>
+   </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Order Management</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+   <!-- Navigation Menu -->
+   <nav>
+      <a href="order_form.html">Place Order</a>
+      <a href="order_management.html">Manage Orders</a>
+      <a href="order_tracking.html">Track Orders</a>
+      <a href="order_history.html">Order History</a>
+      <a href="login.html">Logout</a>
+   </nav>
+
+   <div class="container">
+      <h2>Manage Orders</h2>
+      <button onclick="sortOrders('pickupDate')">Sort by Pickup Date</button>
+      <button onclick="sortOrders('delicacy')">Sort by Delicacy</button>
+      <table id="ordersTable">
+         <thead>
+            <tr>
+               <th>Delicacy</th>
+               <th>Quantity</th>
+               <th>Total Price</th>
+               <th>Special Request</th>
+               <th>Pickup Place</th>
+               <th>Pickup Date</th>
+               <th>Status</th>
+               <th>Actions</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Orders will be dynamically populated here -->
+         </tbody>
+      </table>
+   </div>
+</body>
+</html>
